@@ -20,6 +20,9 @@
             <h2>
                 {{package.title}}
             </h2>
+            <h3>
+                ${{package.price}}
+            </h3>
             <ol>
                 <li>
                     {{package.reelsNumber}} Instagram Reel<span *ngIf="package.reelsNumber > 1" >s</span>
@@ -30,11 +33,12 @@
                 <li>
                     Collaborate with <b>{{package.influencerNumber}}</b> local nano-influencer<span *ngIf="package.influencerNumber > 1" >s</span>
                 </li>
+
             </ol>
             <a
                 [routerLink]="['/','collabrotaion',creatorId,'invoice',package._id]"
             >
-                ${{package.price}}
+                Select
             </a>
         </li>
 
