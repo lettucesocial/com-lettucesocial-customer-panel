@@ -48,6 +48,7 @@ import { BusinessRequestFindCreatorComponent } from 'src/components/business/bus
 import { FindCreatorPlanComponent } from 'src/components/findCreator/find-creator-plan/find-creator-plan.component';
 import { FindCreatorInvoiceComponent } from 'src/components/findCreator/find-creator-invoice/find-creator-invoice.component';
 import { FindCreatorComponent } from '../components/findCreator/find-creator/find-creator.component';
+import { SearchCityComponent } from '../components/search-city/search-city.component';
 
 
 @NgModule(
@@ -82,7 +83,8 @@ import { FindCreatorComponent } from '../components/findCreator/find-creator/fin
    BusinessRequestFindCreatorComponent,
    FindCreatorPlanComponent,
    FindCreatorInvoiceComponent,
-   FindCreatorComponent
+   FindCreatorComponent,
+   SearchCityComponent
    
 		],
 		imports: [
